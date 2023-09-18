@@ -1,0 +1,26 @@
+.inputDiv {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  width: 100%;
+}
+
+.inputField {
+  background-color: rgb(208, 233, 255);
+  padding: 16px;
+  border-style: none;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.inputLabel {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
